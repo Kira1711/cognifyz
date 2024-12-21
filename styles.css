@@ -1,0 +1,52 @@
+/* Basic Reset */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin: 30px 0;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Input fields */
+input {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#result {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
